@@ -14,14 +14,14 @@ export function Doctorlogin() {
         className="bg-gradient-to-b from-gray-100 to-gray-50 dark:from-gray-800 dark:to-gray-900">
         <div
           className="container flex flex-col items-center py-4 px-4 sm:flex-row sm:justify-between sm:py-6 sm:gap-4 md:px-6">
-          <Link className="flex items-center space-x-2" href="#">
+          <Link className="flex items-center space-x-2" href="/">
             <CircleDotIcon className="w-8 h-8" />
             <span className="font-bold tracking-tighter text-gray-900 dark:text-gray-50">DocLink</span>
           </Link>
-          <button
+          <Link href="/"
             className="flex items-center gap-2 text-sm rounded-full border border-gray-200 border-gray-200 bg-white px-6 py-3 shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-900 dark:hover:text-gray-50">
             Patient's Portal
-          </button>
+          </Link>
           <button className="sm:hidden">
             <MenuIcon className="w-6 h-6" />
             <span className="sr-only">Toggle menu</span>
