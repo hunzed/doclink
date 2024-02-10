@@ -31,7 +31,7 @@ export function Doctorlogin() {
       <main className="flex-1">
         <section className="py-12 lg:py-24">
           <div
-            className="container flex flex-col items-center justify-center gap-6 px-4 text-center md:gap-10 md:px-6">
+            className="container flex flex-col items-center justify-center gap-6 px-4 text-center md:gap-10 md:px-2 ">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Log in</h1>
               <div className="space-y-4 w-full max-w-md">
@@ -54,13 +54,13 @@ export function Doctorlogin() {
         </section>
         <section className="py-12 lg:py-14">
           <div
-            className="container flex flex-col items-center justify-center gap-6 px-4 text-center md:gap-10 md:px-6">
+            className="container flex flex-col items-center justify-center gap- px-4 text-center md:gap-10 md:px-6">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">Get Connected to Start Helping</h1>
               <div className="space-y-4 w-full max-w-md">
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" required type="tel" />
+                  <Label htmlFor="email">Enter email for contact</Label>
+                  <Input id="email" required type="email" />
                 </div>
                 <Link href="/"><Button className="w-full" type="submit" >
                   Connect

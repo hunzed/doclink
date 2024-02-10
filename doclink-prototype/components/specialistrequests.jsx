@@ -39,7 +39,8 @@ export function Specialistrequests() {
                     <p className="text-xs text-gray-500 dark:text-gray-400">Patient is experiencing mild fever</p>
                   </div>
                 </div>
-                <Button size="sm">Accept</Button>
+                <Link href="/doctor/specialist/session"><Button  href="../specialist/session" size="sm">Accept</Button></Link>
+                
               </div>
               <div className="flex items-center justify-between p-4">
                 <div className="flex items-center gap-4">
