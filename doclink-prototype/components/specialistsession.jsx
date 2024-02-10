@@ -4,6 +4,7 @@
  */
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 export function Specialistsession() {
   return (
@@ -18,7 +19,7 @@ export function Specialistsession() {
               <p className="text-sm font-medium">Severe Stomach Ache Case #3230</p>
             </div>
           </div>
-          <Button size="sm">Exit session</Button>
+          <Link href="/doctor/specialist"><Button size="sm">Exit session</Button></Link>
         </div>
         <div className="flex-1 p-4 flex flex-col-reverse gap-4">
           <div className="flex space-x-2 items-end flex-row">
