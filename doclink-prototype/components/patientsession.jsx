@@ -4,6 +4,7 @@
  */
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import Link from "next/link";
 
 export function Patientsession() {
   return (<>
@@ -21,7 +22,7 @@ export function Patientsession() {
             <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Neurologist</p>
           </div>
         </div>
-        <Button size="sm">Exit session</Button>
+        <Link href="/"><Button size="sm">End session</Button></Link>
       </div>
       <div className="flex-1 p-4 flex flex-col-reverse gap-4">
         <div className="flex space-x-2 items-end flex-row-reverse">

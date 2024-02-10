@@ -15,7 +15,7 @@ export function Specialistrequests() {
           
           <div className="flex items-center gap-4 ml-auto">
             <span className="text-gray-500 dark:text-gray-800">Dr. John Doe</span>
-            <Link className="text-gray-500 dark:text-gray-400" href="#">
+            <Link className="text-gray-500 dark:text-gray-400" href="/doctor">
               Sign Out
             </Link>
           </div>

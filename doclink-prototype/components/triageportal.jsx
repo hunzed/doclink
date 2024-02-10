@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { DropdownMenuTrigger, DropdownMenuRadioItem, DropdownMenuRadioGroup, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 import { Textarea } from "@/components/ui/textarea"
+import Link from "next/link";
 
 export function Triageportal() {
   return (
@@ -99,9 +100,9 @@ export function Triageportal() {
             Message
           </Label>
           <Textarea className="min-h-[100px]" id="message" placeholder="Type your message..." />
-          <Button className="w-full" type="submit">
+          <Link href="/doctor/specialist/"><Button className="w-full" type="submit">
             Send
-          </Button>
+          </Button></Link>
         </form>
       </div>
     </div>)

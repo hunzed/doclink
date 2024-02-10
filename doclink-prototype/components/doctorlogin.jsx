@@ -43,9 +43,11 @@ export function Doctorlogin() {
                   <Label htmlFor="password">Password</Label>
                   <Input id="password" required type="password" />
                 </div>
-                <Button className="w-full" type="submit">
+                <Link href="/doctor/triage">
+                  <Button className="w-full" type="submit" >
                   Log in
-                </Button>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -60,9 +62,9 @@ export function Doctorlogin() {
                   <Label htmlFor="phone">Phone Number</Label>
                   <Input id="phone" required type="tel" />
                 </div>
-                <Button className="w-full" type="submit">
+                <Link href="/"><Button className="w-full" type="submit" >
                   Connect
-                </Button>
+                </Button></Link>
               </div>
             </div>
           </div>
@@ -72,6 +74,9 @@ export function Doctorlogin() {
   );
 }
 
+function docLogin() {
+  window.location.href = "/doctor";
+}
 
 function CircleDotIcon(props) {
   return (
